@@ -3,7 +3,7 @@ import Head from "next/head";
 import styles from "../../styles/home.module.css";
 import Image from "next/image";
 
-import heroImg from "../assets/hero.png";
+import HeroImage from '../../public/assets/hero.png';
 
 import { db } from "../services/firebaseConnection";
 
@@ -26,7 +26,7 @@ export default function Home({ posts, comments }: HomeProps) {
           <Image
             className={styles.hero}
             alt="Logo Tarefas+"
-            src={heroImg}
+            src={HeroImage}
             priority
           />
         </div>
