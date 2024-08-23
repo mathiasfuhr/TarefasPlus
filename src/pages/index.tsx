@@ -3,7 +3,7 @@ import Head from "next/head";
 import styles from "../../styles/home.module.css";
 import Image from "next/image";
 
-import HeroImage from '../../public/assets/hero.png';
+import HeroImage from '@/public/assets/hero.png';
 
 import { db } from "../services/firebaseConnection";
 
