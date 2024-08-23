@@ -2,12 +2,12 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCr3tROuaXePBWcENKI6myZRaOxJW_nh0E",
-  authDomain: "tarefasplus-d1aa0.firebaseapp.com",
-  projectId: "tarefasplus-d1aa0",
-  storageBucket: "tarefasplus-d1aa0.appspot.com",
-  messagingSenderId: "769213693019",
-  appId: "1:769213693019:web:d9ad137817b38a4f1ad37e",
+  apiKey: "AIzaSyBfWbf6ByjwEI-m6hThi7NeZU1qoYjS6Fk",
+  authDomain: "tarefas-d494c.firebaseapp.com",
+  projectId: "tarefas-d494c",
+  storageBucket: "tarefas-d494c.appspot.com",
+  messagingSenderId: "767337945022",
+  appId: "1:767337945022:web:c13aa21cbda24fa99c0bef"
 };
 
 const firebaseApp = initializeApp(firebaseConfig);
